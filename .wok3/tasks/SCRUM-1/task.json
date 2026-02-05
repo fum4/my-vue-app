@@ -1,0 +1,18 @@
+{
+  "key": "SCRUM-1",
+  "summary": "test task",
+  "description": "test",
+  "status": "To Do",
+  "priority": "Medium",
+  "type": "Task",
+  "assignee": "Alexandru Andronache",
+  "reporter": "Alexandru Andronache",
+  "labels": [],
+  "created": "2026-02-05T11:55:00.275+0200",
+  "updated": "2026-02-05T11:55:01.078+0200",
+  "comments": [],
+  "attachments": [],
+  "linkedWorktree": null,
+  "fetchedAt": "2026-02-05T10:32:15.603Z",
+  "url": "https://test420420.atlassian.net/browse/SCRUM-1"
+}
