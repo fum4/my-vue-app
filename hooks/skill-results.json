@@ -1,0 +1,42 @@
+[
+  {
+    "skillName": "summarize-changes",
+    "status": "passed",
+    "success": true,
+    "summary": "3 files changed: App.vue (full todo app), style.css (reset + layout), design doc added",
+    "filePath": "/Users/fum4/_work/worktree-manager-test-app/.dawg/issues/linear/NOM-12/skill-summarize-changes.md",
+    "reportedAt": "2026-02-17T20:50:56.855Z"
+  },
+  {
+    "skillName": "review-changes",
+    "status": "failed",
+    "success": false,
+    "summary": "3 major accessibility issues: checkbox display:none, delete button no focus-visible, input missing label",
+    "filePath": "/Users/fum4/_work/worktree-manager-test-app/.dawg/issues/linear/NOM-12/skill-review-changes.md",
+    "reportedAt": "2026-02-17T20:52:49.563Z"
+  },
+  {
+    "skillName": "how-to-test",
+    "status": "passed",
+    "success": true,
+    "summary": "Manual test checklist covering add, toggle, delete, empty state, date, and visual checks",
+    "filePath": "/Users/fum4/_work/worktree-manager-test-app/.dawg/issues/linear/NOM-12/skill-how-to-test.md",
+    "reportedAt": "2026-02-17T20:50:58.277Z"
+  },
+  {
+    "skillName": "write-tests",
+    "status": "passed",
+    "success": true,
+    "summary": "16 Vitest + @vue/test-utils tests covering addTodo, removeTodo, toggle, maxlength, Enter key, and empty state",
+    "filePath": "/Users/fum4/_work/worktree-manager-test-app/.dawg/issues/linear/NOM-12/skill-write-tests.md",
+    "reportedAt": "2026-02-17T21:00:25.157Z"
+  },
+  {
+    "skillName": "explain-like-im-5",
+    "status": "passed",
+    "success": true,
+    "summary": "A digital piece of paper for your to-do list — type, check off, and erase tasks",
+    "filePath": "/Users/fum4/_work/worktree-manager-test-app/.dawg/issues/linear/NOM-12/skill-explain-like-im-5.md",
+    "reportedAt": "2026-02-17T20:50:59.953Z"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "id": "run-1771361130767",
+  "worktreeId": "NOM-12",
+  "status": "completed",
+  "startedAt": "2026-02-17T20:45:30.767Z",
+  "completedAt": "2026-02-17T20:45:30.767Z",
+  "steps": [
+    {
+      "stepId": "step-1771239206433",
+      "stepName": "echo \"POST\"",
+      "command": "echo \"POST\"",
+      "status": "passed",
+      "output": "\"POST\"",
+      "startedAt": "2026-02-17T20:45:30.764Z",
+      "completedAt": "2026-02-17T20:45:30.767Z",
+      "durationMs": 3
+    }
+  ]
+}

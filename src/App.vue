@@ -55,6 +55,7 @@ function removeTodo(id) {
         placeholder="Add a new task..."
         class="add-input"
         maxlength="200"
+        aria-label="New task"
       />
       <button class="add-btn" @click="addTodo" aria-label="Add task">+</button>
     </div>
@@ -116,7 +117,15 @@ function removeTodo(id) {
 }
 
 .todo-label input[type="checkbox"] {
-  display: none;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 .checkmark {
@@ -187,6 +196,12 @@ function removeTodo(id) {
   color: #ef4444;
 }
 
+.delete-btn:focus-visible {
+  opacity: 1;
+  outline: 2px solid #6366f1;
+  outline-offset: 2px;
+}
+
 .empty {
   text-align: center;
   padding: 2rem 1.5rem;
@@ -217,8 +232,10 @@ function removeTodo(id) {
   color: #bbb;
 }
 
-.add-input:focus {
+.add-input:focus-visible {
   border-color: #6366f1;
+  outline: 2px solid #6366f1;
+  outline-offset: 0px;
 }
 
 .add-btn {
