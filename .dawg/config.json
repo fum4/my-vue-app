@@ -1,0 +1,13 @@
+{
+  "startCommand": "pnpm dev",
+  "installCommand": "pnpm install",
+  "baseBranch": "origin/main",
+  "projectDir": "",
+  "autoInstall": true,
+  "localIssuePrefix": "LOCAL",
+  "envMapping": {},
+  "ports": {
+    "discovered": [],
+    "offsetStep": 1
+  }
+}
